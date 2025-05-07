@@ -12,7 +12,7 @@ def main():
         if upload_file.name.endswith('.csv'):
             data = pd.read_csv(upload_file)
         else:
-           data = pd.read_excel(upload_file)
+            data = pd.read_excel(upload_file)
         st.sidebar.success("file uploaded sucessfully")
         st.subheader("Showing you a Data Analysis")
         st.dataframe(data.head())
