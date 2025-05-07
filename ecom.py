@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
 
 def main():
    st.title("This is a app for ecom i am creating")
